@@ -11,4 +11,8 @@ class Api::ExamplePagesController < ApplicationController
   def end_action
     render 'end_view.json.jb'
   end
+
+  def new_action
+    render 'new_view.html.erb'
+  end
 end
